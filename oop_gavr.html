@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Лубенець Сергій Васильович</h1></div>
+    <div>
+        <div class="foto">
+            <img src="http://www.cyber.kharkov.ua/contentimages/photos/Lubenets.jpg" width="250" height="350">
+        </div>
+        <div>
+            <div id="a"><b>Посада: </b></div>
+            <div id="b"><b>Вчене звання, науковий ступінь: </b></div>
+            <div id="c"><b>Викладає дисципліни: </b></div>
+            <div id="d"><b>Освіта: </b></div>
+            <div id="e"><b>Персональні профілі: </b></div>
+            <div id="f"><b>E-mail: </b></div>
+        </div>
+    </div>
+    <script>
+        class prepod{
+            constructor(a, b, c, d, e, f){
+                this.a = "Доцент";
+                this.b = "Доцент, кандидат технічних наук";
+                this.c = "1. Економетрика. 2.Інформаційні системи та технології в управлінні. 3. Прогнозування соціально-економічних процесів";
+                this.d = "Харківський державний університет ім. О.М. Горького, 1991, радіофізика та електроніка";  
+                this.e = "ORCID, Research Gate, Google Scholar"; 
+                this.f = "s.lubenec@karazin.ua"; 
+            }
+    }
+    let pr = new prepod();
+    a.append(pr.a);
+    b.append(pr.b);
+    c.append(pr.c);
+    d.append(pr.d);
+    e.append(pr.e);
+    f.append(pr.f);
+    </script>
+</body>
+</html>
+
